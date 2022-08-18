@@ -1,3 +1,6 @@
-let a=1;
-let b=3;
-console.log(a+b)
+let contacts=[10,20,30,40,50]
+//index        0  1  2  3  4
+//console.log(contacts .length)
+for (let i=0; i<=contacts.length-1; i++){
+    console.log(contacts[i])
+}
