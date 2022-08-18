@@ -1,4 +1,4 @@
-let employee={10,20,30,40}
+let employee={}
 let Marks=[]
 
 if (employee.length>0){
