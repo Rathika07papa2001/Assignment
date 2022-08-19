@@ -1,8 +1,9 @@
-<script>
+
     const cars = [];
     cars[0] ="saab";
     cars[1] ="volvo";
     cars [2] ="BMW";
-    doucments.getElementssByID("demo").inner
-    HTML=cars;
-</script>
+console.log(cars);
+
+console.log(cars[2])
+
