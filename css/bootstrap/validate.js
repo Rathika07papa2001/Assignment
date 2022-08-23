@@ -1,7 +1,7 @@
 function form_Validate() {
     let name = document.getElementById('ename').value
     //alert(name)
-    if (name == "" && name.length <= 2) {
+    if (name == "" && name.length <= 0) {
         document.getElementById('ename_Message').innerHTML = "Please Enter name"
         //alert("Pls Enter Name")
     }
@@ -12,7 +12,7 @@ function form_Validate() {
     }
     let address = document.getElementById('address').value;
     //alert(name)
-    if (name == "" && name.length <= 4) {
+    if (name == "" && name.length <= 0) {
         document.getElementById('address-message').innerHTML = "Please Enter Address"
         //alert("Pls Enter Name")
     }
