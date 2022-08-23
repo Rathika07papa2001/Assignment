@@ -10,10 +10,10 @@ function form_Validate() {
     if (email == "") {
         document.getElementById('eemail_Message').innerHTML = "Please Enter Mobile Number"
     }
-    let address = document.getElementById('address').value
+    let address = document.getElementById('address').value;
     //alert(name)
     if (name == "" && name.length <= 4) {
-        document.getElementById('address_Message').innerHTML = "Please Enter name"
+        document.getElementById('address-message').innerHTML = "Please Enter Address"
         //alert("Pls Enter Name")
     }
 
