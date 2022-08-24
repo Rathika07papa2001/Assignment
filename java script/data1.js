@@ -13,5 +13,5 @@ function getEmployees() {
                             <td>${employees[i].sal}</td>
                         </tr>`
     }
-    document.getElementById('tbody_Data').innerHTML = rows
+    document.getElementById('tbody_Data').innerHTML = "Good Mornning"
 }
