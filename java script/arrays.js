@@ -7,3 +7,5 @@ console.log(cars);
 
 console.log(cars[2])
 
+
+console.log("good morning");
